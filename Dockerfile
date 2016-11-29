@@ -6,7 +6,7 @@ ENV GOPATH /root/go
 ENV PATH $PATH:/usr/local/go/bin:$GOPATH/bin
 
 #package
-ENV PACKAGE github.com/jpillora/cloud-torrent
+ENV PACKAGE github.com/factoogle/utorrent-stream
 ENV PACKAGE_DIR $GOPATH/src/$PACKAGE
 
 #install go and godep, then compile cloud-torrent using godep, then wipe build tools
